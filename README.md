@@ -22,3 +22,9 @@
 - Un panel de adminstrador extensible ya creado
 - Un potente sistema de platillas extensible con herencia
 - Usa el patron de arquitectura MVT (ModelViewTemplate)
+
+## **Creando entornos virtuales de python con miniconda**
+
+```sh
+    $ conda create -n py372 python=3.7.2
+```
