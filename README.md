@@ -12,3 +12,5 @@
 - Instagram
 - Bitbucket
 - El diario de Washington Times
+
+> Promueve la filosofía del desarrollo ágil y extensible, aplicado al principio DRY (don't repeat yourself)
