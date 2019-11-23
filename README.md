@@ -38,5 +38,5 @@
 	( trydjango ) $ pip install django==2.2.7
 	( trydjango ) $ django-admin
 	( trydjango ) $ mkdir src
-	( trydjango ) $ cd src && django-admin startproject trydjango
+	( trydjango ) $ cd src && django-admin startproject trydjango && python manage.py runserver
 ```
