@@ -28,3 +28,15 @@
 ```sh
     $ conda create -n py372 python=3.7.2
 ```
+
+```sh
+	$ pip install virtualenv
+	$ mkdir trydjango
+	$ cd trydjango
+	$ virtualenv -p python3 .
+	$ source bin/activate
+	( trydjango ) $ pip install django==2.2.7
+	( trydjango ) $ django-admin
+	( trydjango ) $ mkdir src
+	( trydjango ) $ cd src && django-admin startproject trydjango
+```
