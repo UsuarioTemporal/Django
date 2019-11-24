@@ -40,3 +40,26 @@
 	( trydjango ) $ mkdir src
 	( trydjango ) $ cd src && django-admin startproject trydjango && python manage.py runserver
 ```
+
+```sh
+ 	$ python3 manage.py makemigrations
+	$ python3 manage.py migrate
+	$ # python3 manage.py shell
+	$ # python3 manage.py createsuperuser
+	$ # python3 manage.py startapp nombre-del-componente
+```
+
+
+```sh
+	(trydjango) ➜  trydjango git:(master) ✗ python3 manage.py shell
+	Python 3.6.8 (default, Oct  7 2019, 12:59:55) 
+	[GCC 8.3.0] on linux
+	Type "help", "copyright", "credits" or "license" for more information.
+	(InteractiveConsole)
+	>>> from products.models import Product
+	>>> Product.objects.all()
+	<QuerySet []>
+	>>> Product.objects.create(title='New Product',description='something',price='12.4')
+	<Product: Product object (1)>
+	>>>
+```
